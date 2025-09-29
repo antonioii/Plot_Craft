@@ -7,36 +7,6 @@ The entire README is written in **English** in order to maximize the project’s
 
 ---
 
-## ✨ Features
-
-PlotCraft offers a step-by-step workflow that guides writers from initial idea to final draft:
-
-- **Title & Resume Window**  
-  Generate or manually define a book title and summary as the foundation of the project.
-
-- **Reference Schema Board**  
-  Automatically extract and organize **places/objects**, **characters**, and **main happenings** that will support the narrative.
-
-- **Three-Act Structure**  
-  Suggests **Acts I, II, III** to create the backbone of the story.
-
-- **Chapters Generator**  
-  Expands the acts into **12 chapters**, each with a title and summary.
-
-- **Story Beats**  
-  Creates **12 detailed beats per chapter** to ensure plot consistency.
-
-- **Final Draft Writing**  
-  Automatically writes the book chapter by chapter, in coherent blocks, based on the beats.  
-  Includes **progress tracking**, **copy-to-clipboard**, and **Save As (.txt, .rtf, .doc)** options.
-
-- **Project Persistence**  
-  All progress is stored in a JSON file, making it possible to **load projects at any stage** (title/resume, schema, acts, chapters, beats, or final draft).
-
-- **GUI-based Interface**  
-  Built with **Tkinter**, the app provides a user-friendly workflow without requiring technical knowledge.
-
----
 
 ## 📦 Installation
 
@@ -76,6 +46,39 @@ python Main.py
 ```
 
 This will open the **PlotCraft GUI**, where you can start a new project or load an existing one.
+
+
+---
+
+
+## ✨ Features
+
+PlotCraft offers a step-by-step workflow that guides writers from initial idea to final draft:
+
+- **Title & Resume Window**  
+  Generate or manually define a book title and summary as the foundation of the project.
+
+- **Reference Schema Board**  
+  Automatically extract and organize **places/objects**, **characters**, and **main happenings** that will support the narrative.
+
+- **Three-Act Structure**  
+  Suggests **Acts I, II, III** to create the backbone of the story.
+
+- **Chapters Generator**  
+  Expands the acts into **12 chapters**, each with a title and summary.
+
+- **Story Beats**  
+  Creates **12 detailed beats per chapter** to ensure plot consistency.
+
+- **Final Draft Writing**  
+  Automatically writes the book chapter by chapter, in coherent blocks, based on the beats.  
+  Includes **progress tracking**, **copy-to-clipboard**, and **Save As (.txt, .rtf, .doc)** options.
+
+- **Project Persistence**  
+  All progress is stored in a JSON file, making it possible to **load projects at any stage** (title/resume, schema, acts, chapters, beats, or final draft).
+
+- **GUI-based Interface**  
+  Built with **Tkinter**, the app provides a user-friendly workflow without requiring technical knowledge.
 
 ---
 
