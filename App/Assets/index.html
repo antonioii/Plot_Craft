@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PlotCraft • Manual </title>
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="topbar">
+    <div class="brand">
+      <img src="./logo_small.png" alt="PlotCraft" class="logo" />
+      <div class="title-wrap">
+        <h1 class="product">PlotCraft</h1>
+        <p class="subtitle">Manual do usuário </p>
+      </div>
+    </div>
+
+    <!-- Language Buttons -->
+    <nav class="lang-switch" aria-label="Trocar idioma">
+      <button id="btn-pt" type="button" title="Português (Brasil)">🇧🇷 <span>PT‑BR</span></button>
+      <button id="btn-en" type="button" title="English">🇬🇧 <span>EN</span></button>
+    </nav>
+  </header>
+
+  <!-- Button to re-open collapsed menu -->
+  <button class="reopen-btn" id="reopenBtn" aria-label="Expandir menu">⟩</button>
+
+  <!-- Main Layout: sidebar + content -->
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <!-- Badges simples -->
+      <div class="poc">
+        <span class="poc-badge">PoC</span>
+        <span class="poc-sub">(Proof of Concept)</span>
+      </div>
+
+      <!-- Naveg -->
+      <ul class="nav">
+        <li>
+          <button class="nav-link" data-topic="introduction">
+            <span class="icon">🏠</span><span class="txt">Introduction</span>
+          </button>
+        </li>
+
+        <li>
+          <button class="nav-link" data-topic="api-keys">
+            <span class="icon">🔑</span><span class="txt">API Keys</span>
+          </button>
+        </li>
+
+        <li>
+          <button class="nav-link" data-topic="fast-start">
+            <span class="icon">⚡</span><span class="txt">Fast Start</span>
+          </button>
+        </li>
+
+        <li class="has-children">
+          <!-- Btn to close/open submenu -->
+          <button class="nav-link caret" data-toggle="sub-windows">
+            <span class="icon">📚</span><span class="txt">Each window</span>
+            <span class="arrow">▾</span>
+          </button>
+          <ul class="sub" id="sub-windows">
+            <li><button class="nav-sublink" data-topic="window-initial">Initial</button></li>
+            <li><button class="nav-sublink" data-topic="window-title-resume">Title &amp; Resume</button></li>
+            <li><button class="nav-sublink" data-topic="window-reference-board">Reference board</button></li>
+            <li><button class="nav-sublink" data-topic="window-acts">Acts</button></li>
+            <li><button class="nav-sublink" data-topic="window-chapters">Chapters</button></li>
+            <li><button class="nav-sublink" data-topic="window-beats">Beats</button></li>
+            <li><button class="nav-sublink" data-topic="window-finishing">Finishing</button></li>
+          </ul>
+        </li>
+
+        <li>
+          <button class="nav-link" data-topic="llms-depth">
+            <span class="icon">🧠</span><span class="txt">LLMs in depth</span>
+          </button>
+        </li>
+
+        <li class="divider"></li>
+
+        <!-- Colapse menu -->
+        <li>
+          <button class="nav-link ghost" id="collapseBtn">
+            <span class="icon">⬅️</span><span class="txt">(Collapse menu)</span>
+          </button>
+        </li>
+
+        <li class="copyright">© PlotCraft</li>
+      </ul>
+    </aside>
+
+    <!-- Main content area -->
+    <main class="content" id="content" role="main" tabindex="-1">
+      <!-- This initial content will be changed by app.js -->
+      <h2 class="page-title">INTRODUCTION</h2>
+      <div class="page-body">
+        <p class="lead">&lt;Conteúdo carregando...&gt;</p>
+      </div>
+    </main>
+  </div>
+
+  <!-- JS -->
+  <script src="app.js"></script>
+</body>
+</html>
