@@ -363,7 +363,7 @@ const I18N = {
         e acompanhados por breves resumos (marcados pelo termo <em>“CAPITULUM LIBRI”</em>).
         Esse formato ajuda a organizar o material para revisão e edição posteriores.</p>
 
-        <img src="./manual-screens/finishing.png" alt="Finalização">
+        <img src="./manual-screens/final.png" alt="Finalização">
 
         <p><strong>Dicas rápidas:</strong></p>
         <ul>
@@ -759,7 +759,7 @@ const I18N = {
         and accompanied by short summaries (marked by the term <em>“CAPITULUM LIBRI”</em>).
         This format helps organize the material for later review and editing.</p>
 
-        <img src="./manual-screens/finishing.png" alt="Finishing">
+        <img src="./manual-screens/final.png" alt="Finishing">
 
         <p><strong>Quick tips:</strong></p>
         <ul>
