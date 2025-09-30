@@ -104,6 +104,15 @@
   </div>
 
   <!-- JS -->
+    <!-- Main actions -->
   <script src="app.js"></script>
+    <!-- Make focus on content, but scroll to up-->
+  <script>
+  window.addEventListener("load", () => {
+    document.querySelector(".sidebar").scrollTop = 0;
+    window.scrollTo(0, 0);
+  });
+</script>
+
 </body>
 </html>

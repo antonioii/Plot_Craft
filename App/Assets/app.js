@@ -852,6 +852,8 @@ function renderPage(topic){
   content.focus();
 }
 
+
+
 function markActive(topic){
   document.querySelectorAll('.nav-link, .nav-sublink').forEach(el => el.classList.remove('active'));
   document.querySelectorAll(`[data-topic="${topic}"]`).forEach(el => el.classList.add('active'));
@@ -865,6 +867,7 @@ document.querySelectorAll('[data-topic]').forEach(btn => {
     // update hash
     location.hash = t;
     renderPage(t);
+    window.scrollTo(0, 0); /*keep focun on content, but scroll up*/
   });
 });
 
@@ -923,6 +926,7 @@ function setLang(lang){
 
   // Refresh every menu label and UI microcopy according to I18N
   refreshMenuLabels(lang);
+  window.scrollTo(0, 0); //keep focus on content, but scroll up
 }
 btnPT.addEventListener('click', () => setLang('pt'));
 btnEN.addEventListener('click', () => setLang('en'));
