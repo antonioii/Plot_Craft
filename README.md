@@ -140,5 +140,5 @@ You are free to use, modify, and distribute it, provided proper credit is given.
 ## 🔗 Author
 
 Developed by **Antonio Sérgio Costa Carpinteiro II**  
-- [LinkedIn](https://www.linkedin.com/)  
+- [LinkedIn](https://www.linkedin.com/in/antonio-s%C3%A9rgio-costa-carpinteiro-ii-929179170/)  
 - [GitHub](https://github.com/antonioii)

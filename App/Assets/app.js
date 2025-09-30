@@ -39,7 +39,7 @@ const I18N = {
           <a href="https://www.linkedin.com/in/antonio-s%C3%A9rgio-costa-carpinteiro-ii-929179170/" target="_blank" 
           rel="noopener">LINKEDIN</a>
           |
-          <a href="https://github.com/antonioii/PlotCraft" target="_blank" rel="noopener">GITHUB</a>
+          <a href="https://github.com/antonioii/Plot_Craft" target="_blank" rel="noopener">GITHUB</a>
         </p>
       `
     },
@@ -406,7 +406,7 @@ const I18N = {
         <p><strong>Autor do projeto:</strong> Antonio Sérgio C.C. II  
         <br>
         <a href="https://www.linkedin.com/in/antonio-s%C3%A9rgio-costa-carpinteiro-ii-929179170/" target="_blank">LinkedIn</a> | 
-        <a href="https://github.com/antonioii/PlotCraft" target="_blank">GitHub</a></p>
+        <a href="https://github.com/antonioii/Plot_Craft" target="_blank">GitHub</a></p>
       `
     },
 
@@ -442,7 +442,7 @@ const I18N = {
           <a href="https://www.linkedin.com/in/antonio-s%C3%A9rgio-costa-carpinteiro-ii-929179170/" target="_blank"
           rel="noopener">LINKEDIN</a>
           |
-          <a href="https://github.com/antonioii/PlotCraft" target="_blank" rel="noopener">GITHUB</a></p>
+          <a href="https://github.com/antonioii/Plot_Craft" target="_blank" rel="noopener">GITHUB</a></p>
       `
     },
 
@@ -803,7 +803,7 @@ const I18N = {
         <p><strong>Project Author:</strong> Antonio Sérgio C.C. II  
         <br>
         <a href="https://www.linkedin.com/in/antonio-s%C3%A9rgio-costa-carpinteiro-ii-929179170/" target="_blank">LinkedIn</a> | 
-        <a href="https://github.com/antonioii/PlotCraft" target="_blank">GitHub</a></p>
+        <a href="https://github.com/antonioii/Plot_Craft" target="_blank">GitHub</a></p>
       `
     },
 
