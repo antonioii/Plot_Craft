@@ -849,7 +849,8 @@ function renderPage(topic){
   `;
   markActive(topic);
   // Content focus after change the page
-  content.focus();
+  content.focus({ preventScroll: true });
+  window.scrollTo(0, 0);
 }
 
 
