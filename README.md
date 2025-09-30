@@ -1,46 +1,40 @@
 # PlotCraft
 
-**PlotCraft** is a Python application developed as part of my Computer Science graduation project (TCC) at UNIP.  
-It is a **creative-writing assistant powered by Large Language Models (LLMs)** that helps authors structure and generate long-form fiction (novels, novellas, etc.) with coherence, creativity, and flexibility.
+**PlotCraft** is a Python application developed as part of my Computer Science graduation project at UNIVERSIDADE PAULISTA  (UNIP).  It is a **creative-writing assistant powered by Large Language Models (LLMs)** that helps authors structure and generate long-form fiction (novels, novellas, etc.) with coherence, creativity, and flexibility.
 
-The entire README is written in **English** in order to maximize the project’s visibility within the international developer community on GitHub. By doing so, contributors, researchers, and developers worldwide can understand, test, and possibly expand the project.
+The project is written in **English** in order to maximize the project’s visibility within the international developer community on GitHub. By doing so, contributors, researchers, and developers worldwide can understand, test, and possibly expand the project.
 
 ---
 
 
 ## 📦 Installation
 
-Follow these steps to install and run PlotCraft locally:
+Follow these steps to install and run PlotCraft locally.
+    
+**Note**: You must have an OpenAI API KEY to run the software after the installation. Read the full manual for more information: https://antonioii.github.io/Plot_Craft/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/PlotCraft.git
+git clone https://github.com/antonioii/Plot_Craft.git
 cd PlotCraft
 ```
 
 ### 2. Set up a virtual environment
-It is recommended to use a virtual environment to isolate dependencies.
+It is **highly** recommended to use a virtual environment to isolate dependencies.
 
 ```bash
 python -m venv venv
-source venv/bin/activate   # On Linux / macOS
 venv\Scripts\activate      # On Windows
+source venv/bin/activate   # On Linux, or macOS / not yet tested
 ```
 
 ### 3. Install dependencies
+Within the project files obtained from github (through the cloning process), find the "App" folder and install the requirements:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configure environment variables
-Inside the folder `config/`, create a file called `.env` and add:
-
-```
-API_KEY=your_openai_api_key_here
-LLM_MODEL=gpt-4
-```
-
-### 5. Run the program
+### 4. Run the program
 ```bash
 python Main.py
 ```
