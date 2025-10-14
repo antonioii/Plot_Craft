@@ -16,7 +16,7 @@ Follow these steps to install and run PlotCraft locally.
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/antonioii/Plot_Craft.git
-cd PlotCraft
+cd Plot_Craft
 ```
 
 ### 2. Set up a virtual environment
