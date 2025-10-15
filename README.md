@@ -5,8 +5,14 @@
 The project is written in **English** in order to maximize the project’s visibility within the international developer community on GitHub. By doing so, contributors, researchers, and developers worldwide can understand, test, and possibly expand the project.
 
 ---
+## 🎬 Demo Video
 
+Watch the full demonstration of PlotCraft in action — from installation to AI-powered story generation:
 
+[![Watch the video](https://img.youtube.com/vi/1FhzqDDUs8U/maxresdefault.jpg)](https://youtu.be/1FhzqDDUs8U)
+   
+
+---
 ## 📦 Installation
 
 Follow these steps to install and run PlotCraft locally.
